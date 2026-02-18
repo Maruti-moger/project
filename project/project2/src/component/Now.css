@@ -1,0 +1,126 @@
+*{
+    div{
+        border: 2px solid black;
+    }
+}
+.main{
+    max-width: 100%;
+    height: 70vh;
+    display: flex;
+    flex-direction: column;
+    background-color: black;
+    flex-wrap: wrap;
+}
+.top{
+    flex: 1;
+    display: flex;
+    flex-direction: row;
+}
+.t-l{
+   flex: 1; 
+   display: flex;
+   align-items: center;
+   justify-content: center;
+}
+.style{
+    height: 90px;
+}
+.t-m{
+    flex: 1;
+    display: flex;
+    align-items: center;
+    color: white;
+    justify-content: center;
+}
+.tr-3{
+    height: 50px;
+    max-width: 130px;
+    color: yellow;
+    border: 2px solid yellow;
+    border-radius: 10px;
+    background-color: black;
+    
+}
+.t-r{
+    flex: 1;
+    display: flex;
+    align-items: center;
+    justify-content: center;
+
+}
+.bottom{
+    flex: 3;
+    display: flex;
+    flex-direction: column;
+    margin-left: 100px;
+    margin-right: 100px;
+    background-color: grey;
+    border-radius: 20px;
+}
+.b-t{
+    flex: 1;
+    display: flex;
+    flex-direction: column;
+    border-radius: 10px;
+    border: none;
+}
+.bt-1{
+    flex: 1;
+    color: white;
+    border: none;
+}
+.bt-2{
+    flex: 1;
+    color: white;
+    border: none;
+}
+.bt-3{
+    flex: 1;
+    color: white;
+    border: none;
+}
+.bt-4{
+    flex: 1;
+    color: white;
+    border: none;
+}
+.bt-5{
+    flex: 1;
+    color: white;
+    border: none;
+}
+.b-b{
+    flex: 1;
+    display: flex;
+    flex-direction: column;
+    border: none;
+}
+.bb-1{
+    flex: 1;
+    color: white;
+    border: none;
+
+}
+.bb-2{
+    flex: 1;
+    color: white;
+    border: none;
+}
+.bb-3{
+    flex: 1;
+    color: white;
+    border: none;
+}
+.bb-4{
+    flex: 1;
+    color: white;
+    border: none;
+}
+.p1{
+    height: 30px;
+    width: 30px;
+    position: fixed;
+    margin-top: 170px;
+    border-radius: 10px;
+    left: 100px;
+}
